@@ -12,7 +12,7 @@ Parking system simulation using Arduino Uno
 #
 5- Arduino IDE installed
 # Purpose:
-Control the entry and the exit of the cars using the Arduino Uno via the IR sensors: one for the entrance and the other for the exit and display the number of cars currently in the parking via the I2C LCD
+Monitor the entrance and the exit of the cars using the Arduino Uno via the IR sensors: one for the entrance and the other for the exit and display the number of cars currently in the parking via the I2C LCD
 #
 # How to use:
 
