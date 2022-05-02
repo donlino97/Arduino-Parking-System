@@ -16,10 +16,10 @@ Control the entry and the exit of the cars using the Arduino Uno via the IR sens
 #
 # How to use:
 
-1-Run the "I2c Initializing.ino" file on the Arduino IDE: this code is used to find the I2C LCD Address ( In my case it's 0x27 )
+1-Run the "I2c Initializing.ino" file on the Arduino IDE: this code is used to find the I2C LCD Address.( In my case it's 0x27 )
  
-2-Open the "main code.ino" file and put the I2C LCD adresse in the lcd element ( In my case: lcd(0x27, 16, 2) )
+2-Open the "main code.ino" file and put the I2C LCD adresse in the lcd element.( In my case: lcd(0x27, 16, 2) )
 
-# N.B: If you changed the IR sensors pins location don't forget to change it in the main code ( In my case: int IRSensor_Entrance = 3; int IRSensor_Exit = 7;
+ N.B: If you changed the IR sensors pins location don't forget to change it in the main code.( In my case: int IRSensor_Entrance = 3; int IRSensor_Exit = 7;
 
-# N.B: You can change the number of parks by changing the "lastcount" variable in "the main code" file ( In my case: unsigned long lastCount = 5; )
+ N.B: You can change the number of parks by changing the "lastcount" variable in "the main code" file.(In my case: lastCount = 5 ; )
